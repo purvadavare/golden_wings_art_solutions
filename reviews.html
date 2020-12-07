@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            font-family: 'Lato', sans-serif;
+            background-color: chocolate;
+        }
+        /* h2{
+            position: relative;
+        }
+        h2::after{
+            content: "";
+            width: 130px;
+            position: absolute;
+            margin: 0 auto;
+            height: 3px;
+            background: #FFC107;
+            left: 0;
+            right: 0;
+            bottom: -10px;
+        } */
+        .carousel-inner .carousel-item .img-box{
+            width: 135px;
+            height: 135px;
+        }
+        .carousel-control-prev{
+            left: -100px;
+        }
+        .carousel-control-next{
+            right: -100px;
+        }
+        .carousel-indicators{
+            top: 400px;
+        }
+        @media (min-width: 320px) and (max-width: 640px) {
+            .carousel-inner .carousel-item p{
+                font-size: 14px;
+            }
+            .carousel-control-prev{
+                left: -40px;
+            }
+            .carousel-control-next{
+                right: -40px;
+            }
+            .carousel-indicators{
+                top: 400px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Section: Testimonials v.2 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 col-10 offset-1 mt-5">
+                <h2 class="text-center mt-5 mb-5 pb-2 text-uppercase text-dark"><strong>Testimonials</strong></h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner mt-4">
+                    <div class="carousel-item text-center active">
+                        <div class="img-box p-1 border rounded-circle m-auto">
+                            <img class="d-block w-100 rounded-circle" src="http://nicesnippets.com/demo/profile-1.jpg" alt="First slide">
+                        </div>
+                        <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Rushikesh Chavan</strong></h5>
+                        <h6 class="text-dark m-0">Ahmednagar</h6>
+                        <p class="m-0 pt-3">
+                            It’s been a year now that I have known Aisshwarya. I extremely love her work and the way she 
+                            makes you happy & satisfied. Aisshwarya knows exactly what will suit for a bride or models in
+                            terms of both makeup and hairstyle. She will never enforce her opinion on you rather would 
+                            listen to your requirements and accordingly suggest. And not to forget she is very punctual.
+                            I not only admire her skills and artistry but also the humble, down to earth attitude that she has.
+                            I personally recommend her as a photographer for best makeups & newest hairstyles with 
+                            updated & top brands makeup kits. Here you can go with attached photos with her creative work</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="img-box p-1 border rounded-circle m-auto">
+                            <img class="d-block w-100 rounded-circle" src="http://nicesnippets.com/demo/profile-3.jpg" alt="First slide">
+                        </div>
+                        <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Purva Davare</strong></h5>
+                        <h6 class="text-dark m-0">Pune</h6>
+                        <p class="m-0 pt-3">
+                            Aishwarya was very knowledgeable and talked me through the entire process. 
+                            I left feeling not only amazing about how my face felt but I also felt like I
+                             knew more about how to maintain it. Highly  recommend!!</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="img-box p-1 border rounded-circle m-auto">
+                            <img class="d-block w-100 rounded-circle" src="http://nicesnippets.com/demo/profile-7.jpg" alt="First slide">
+                        </div>
+                        <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">snehali</strong></h5>
+                        <h6 class="text-dark m-0">Pune</h6>
+                        <p class="m-0 pt-3 text-white">I had awesome experience with aishwarya..
+                             She is so humble, modest and very imp punctual gal.. She did awesome makeup..
+                              All the best.. And glad to say that I found a friend in her!! ☺️💃</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="img-box p-1 border rounded-circle m-auto">
+                            <img class="d-block w-100 rounded-circle" src="http://nicesnippets.com/demo/profile-7.jpg" alt="First slide">
+                        </div>
+                        <h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Iron Addiction</strong></h5>
+                        <h6 class="text-dark m-0">Ahmednagar</h6>
+                        <p class="m-0 pt-3 text-white">Amazing experience...very nice hairstyle and amazing makeup😎...
+                            same as expected...I definitely recommend everyone to visit her Golden Wings Art Solutions...
+                            more than happy customers🤩... thank you for your lovely services also my sister is very 
+                            happy with her make-up and her hairstyle everyone was completing her as if it was her engagement....
+                            she was looking very cute an😍😍amn pretty.. Thank you 😊😊 once again</p>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>            
+        </div>
+    </div>
+  <!-- Section: Testimonials v.2 -->
+</body>
+</html>
