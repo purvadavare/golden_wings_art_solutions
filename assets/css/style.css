@@ -1,4 +1,4 @@
-body, html { overflow-x:hidden; }
+body { overflow-x:hidden; }
 
 .wrap-modal-slider.open {
     opacity: 6 !important;
