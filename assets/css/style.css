@@ -1,20 +1,18 @@
-body { overflow-x:hidden; }
 
+/* Service section */
 .wrap-modal-slider.open {
     opacity: 6 !important;
   }
-  
-  .slick-prev:before, .slick-next:before {
+.slick-prev:before, .slick-next:before {
     color: red !important;
   }
 
   
-
+/* Reviews Section */
 .reviews_carousel .reviews_item .img-box{
   width: 135px;
   height: 135px;
 }
-
 #prev_icon{
   background-color: black !important;
 }
@@ -28,6 +26,22 @@ body { overflow-x:hidden; }
   right: -100px;
 }
 
+@media (min-width: 320px) and (max-width: 640px) {
+  .reviews_carousel .reviews_item p{
+      font-size: 14px;
+  }
+  .carousel-control-prev{
+      left: -40px;
+  }
+  .carousel-control-next{
+      right: -40px;
+  }
+  .carousel-indicators{
+      /* top: 400px; */
+  }
+}
+
+/* Modal Section */
 .modal-dialog {
   min-height: calc(100vh - 60px);
   display: flex;
@@ -41,17 +55,3 @@ body { overflow-x:hidden; }
 }
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
-  .reviews_carousel .reviews_item p{
-      font-size: 14px;
-  }
-  .carousel-control-prev{
-      left: -40px;
-  }
-  .carousel-control-next{
-      right: -40px;
-  }
-  .carousel-indicators{
-      top: 400px;
-  }
-}
