@@ -21,10 +21,10 @@ body, html { overflow-x: hidden;}
   background-color: black !important;
 }
 #carousel_control_prev{
-  left: -100px;
+  left: -90px;
 }
 #carousel_control_next{
-  right: -100px;
+  right: -90px;
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
@@ -32,10 +32,10 @@ body, html { overflow-x: hidden;}
       font-size: 14px;
   }
   .carousel-control-prev{
-      left: -40px;
+      left: -30px;
   }
   .carousel-control-next{
-      right: -40px;
+      right: -30px;
   }
   .reviews_indicator{
       top: 400px;
