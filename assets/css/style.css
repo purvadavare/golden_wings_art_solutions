@@ -36,8 +36,8 @@
   .carousel-control-next{
       right: -40px;
   }
-  .carousel-indicators{
-      /* top: 400px; */
+  .reviews_indicator{
+      top: 400px;
   }
 }
 
