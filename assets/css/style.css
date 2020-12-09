@@ -21,10 +21,10 @@ body, html { overflow-x: hidden;}
   background-color: black !important;
 }
 #carousel_control_prev{
-  left: -90px;
+  left: -50px;
 }
 #carousel_control_next{
-  right: -90px;
+  right: -50px;
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
