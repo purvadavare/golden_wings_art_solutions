@@ -56,3 +56,16 @@ body, html { overflow-x: hidden;}
 }
 }
 
+/* banner */
+@media (min-width: 320px) and (max-width: 640px) {
+  
+  .banner_carousel_prev{
+      left: -20px;
+  }
+  .banner_carousel_next{
+      right: -20px;
+  }
+  .banner_indicators{
+      top: 550px;
+  }
+}
