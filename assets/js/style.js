@@ -23,6 +23,5 @@ $( '.links a' ).on( 'click', function(e){
   $( 'html, body' ).animate({
 		scrollTop: $( href ).offset().top
   }, 'slow' );
-  e.preventDefault();
 
 });
